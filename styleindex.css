@@ -1,0 +1,61 @@
+/* background */
+
+body {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(136, 200, 239);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+}
+
+/* Header */
+
+h1 {
+    color: rgb(133, 30, 47);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/* Body */
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 20px 100px;
+}
+
+img {
+    width: 300px;
+    border: 5px solid #333333;
+    border-radius: 8px;
+    height: auto;
+    display: block;
+}
+
+/* Heart */
+
+.page-center {
+    min-height: calc(100vh - 56px);
+}
+
+.heart-link {
+    display: block;
+    width: 300px;
+    max-width: 80vw;
+}
+
+.heart-link svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}

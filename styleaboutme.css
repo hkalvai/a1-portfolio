@@ -1,0 +1,47 @@
+/* Background */
+
+body {
+    
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;   
+    text-align: center;
+    background-color: rgb(156, 210, 243);
+    margin: 0;
+    min-height: 100vh;      
+}
+
+/* Header */
+
+h1 {
+    padding-top: 30px;
+    color: rgb(0, 81, 4);
+    font-size: clamp(32px, 6vw, 48px);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+h2 {padding-top: 30px;
+    color: rgb(0, 81, 4);
+    font-size: clamp(32px, 6vw, 48px);
+    font-weight: bold;
+    font-family: cursive; 
+}
+ 
+/* bodytext */
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 20px 100px;
+}
+/* navigation bar */
+
+.navbar {
+    width: 100%;
+    font-family: 'Comic Sans', comic;
+}
+

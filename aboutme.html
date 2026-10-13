@@ -1,0 +1,132 @@
+<!--WRITTEN BY: Harita Kalvai-->
+<!--EMAIL: hkalvai@uci.edu-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Inserting css files, google fonts, and boostrap for future formatting.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleaboutme.css">
+</head>
+
+<!--sidebar (top part of screen)-->
+
+<body>
+
+    <nav class="navbar navbar-expand-md" style="background-color: pink;">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav" aria-controls="mainNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <a href="index.html" class="btn btn-outline-dark ms-auto">
+                    Home
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <!--Header-->
+
+    <h1>About Me!</h1>
+
+    <!--Body Text-->
+
+    <p>
+        I am a 4th-year Criminology and Informatics Double Major! I am pre-law.
+        In my free time, I like to hike, bake, take photos, and hang out with my friends.
+        I also like to garden, and I work at the UCI garden.
+
+        I am currently doing on-campus research in association with Google, and am a legal aide
+        at a law firm. I am interested in going into patent litigation. Below are several of my projects...
+    </p>
+
+    <!--Button 1: Machine Learning DRP-->
+
+    <div class="container w-100 my-4">
+        <div class="row g-3">
+            <div class="col-4">
+                <a href="https://docs.google.com/document/d/1EKUU5ECMaqxYwFMNidOaAcfDv5LTYQ7P5UAcPAeCkgk/edit?usp=sharing" class="btn btn-outline-dark w-100 h-100 d-flex align-items-center justify-content-center">
+                    Machine Learning DRP
+                </a>
+
+    <!--Button 2: Resume-->
+            </div>
+            <div class="col-4">
+                <a href="https://docs.google.com/document/d/1FSMd3phjVbF3vldVQxGlzTpL8UsxkNJn-uxSmXNJxbI/edit?usp=sharing" target="_blank" rel="noopener" class="btn btn-outline-dark w-100 h-100 d-flex align-items-center justify-content-center">
+                    Resume!
+                </a>
+
+    <!--Button 3: UCI Resist Lab-->
+
+            </div>
+            <div class="col-4">
+                <a href="https://docs.google.com/spreadsheets/d/12ozUdVYV07zv4yXlabfmDU8tEoxjbnP1qSIt36sXyDA/edit?usp=sharing" class="btn btn-outline-dark w-100 h-100 d-flex align-items-center justify-content-center">
+                    UCI RESIST LAB
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!--Contact Form-->
+
+    <h2>Contact Me!</h2>
+
+    <p>Have a question? Send me a message!</p>
+
+    <form action="#" method="post">
+
+<!--Contact Form-->
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+        <br><br>
+
+<!--Email ID Form-->        
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+        <br><br>
+
+<!--Subject Line Entry-->
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject"
+               placeholder="Enter subject">
+        <br><br>
+
+<!--Message Entry-->        
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"
+                  rows="5" cols="30"
+                  placeholder="Write your message here"
+                  required></textarea>
+        <br><br>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+<!--Bootstrap-->    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
