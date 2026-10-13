@@ -1,5 +1,8 @@
 --Readme document for Harita Kalvai, hkalvaiI@uci.edu--
 
+Code written by Harita Kalvai
+hkalvai@uci.edu (not included in index file)
+
 A reminder on academic integrity, as described in the syllabus.
 
 In general, the course staff expects that you will look at code and examples from many online resources as part of the assignments, particularly to resolve syntax and understand frameworks. We expect that you'll use other libraries you find, and will even require it in some assignments. These practices are often critical to the work of developers today. The best developers are adept at interpreting the examples they see, customizing them to their specific situation, and citing their sources so they can find them later. We expect you to do the same.
